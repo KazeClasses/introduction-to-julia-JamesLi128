@@ -1,7 +1,11 @@
-
 using Test
 using Random
 
+"""
+Insertion Sort Algorithm
+# Arguments
+- `array::Array{Int, 1}`: The array to be sorted in place.
+"""
 function insertion_sort!(array::Array{Int, 1})
     # Insert your code here
     for i in 2:length(array)
